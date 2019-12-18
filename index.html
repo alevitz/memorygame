@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="memorygame-container">
+    <div class="start-screen flip">
+        <div>
+            <h1>GIF MATCHING GAME!!!</h1>
+        </div>
+
+        <div class="divStartButton">
+            <button id="start">START!</button>
+        </div>
+
+    </div>
+
+    <div class="memorygame-screen">
+    <!-- <div>
+        <h1>Memory Game!!!</h1>
+    </div> -->
+    <section class="memory-game">
+        <div class="memory-card" data-gif="Dogshug">
+            <img class="front-face" src="https://media.giphy.com/media/f4HpCDvF84oh2/giphy.gif" 
+            alt="Dogshug" 
+             />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Dogshug">
+            <img class="front-face" src="https://media.giphy.com/media/f4HpCDvF84oh2/giphy.gif" 
+            alt="Dogshug" 
+             />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Drevil">
+            <img class="front-face" src="https://media.giphy.com/media/BZlNhp9L5WINi/giphy.gif" 
+            alt="Drevil" 
+            />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Drevil">
+            <img class="front-face" src="https://media.giphy.com/media/BZlNhp9L5WINi/giphy.gif" 
+            alt="Drevil" 
+             />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Garfield">
+            <img class="front-face" src="https://media.giphy.com/media/npY5Jqcr7kBhDaQTjq/giphy.gif" 
+            alt="Garfield" 
+             />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>  
+        <div class="memory-card" data-gif="Garfield">
+            <img class="front-face" src="https://media.giphy.com/media/npY5Jqcr7kBhDaQTjq/giphy.gif" 
+            alt="Garfield" 
+             />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>  
+        <div class="memory-card" data-gif="Geniefree">
+            <img class="front-face" src="https://media.giphy.com/media/RvakuDOggFnsA/giphy.gif" 
+            alt="Geniefree" 
+             />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Geniefree">
+            <img class="front-face" src="https://media.giphy.com/media/RvakuDOggFnsA/giphy.gif" 
+            alt="Geniefree" 
+            />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Joydance">
+            <img class="front-face" src="https://media.giphy.com/media/3o8doSQ5eYzwEgaPVS/giphy.gif" 
+            alt="Joydance" 
+            />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>  
+        <div class="memory-card" data-gif="Joydance">
+            <img class="front-face" src="https://media.giphy.com/media/3o8doSQ5eYzwEgaPVS/giphy.gif" 
+            alt="Joydance" 
+            />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div> 
+        <div class="memory-card" data-gif="Patrick">
+            <img class="front-face" src="https://media.giphy.com/media/8WJw9kAG3wonu/giphy.gif" 
+            alt="Patrick" 
+            />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Patrick">
+            <img class="front-face" src="https://media.giphy.com/media/8WJw9kAG3wonu/giphy.gif" 
+            alt="Patrick" 
+                />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Pigjumps">
+            <img class="front-face" src="https://media.giphy.com/media/Ub8XEam5vXbMY/giphy.gif" 
+            alt="Pigjumps" 
+                />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Pigjumps">
+            <img class="front-face" src="https://media.giphy.com/media/Ub8XEam5vXbMY/giphy.gif" 
+            alt="Pigjumps" 
+            />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Racoon">
+            <img class="front-face" src="https://media.giphy.com/media/3WvdC5etwu52rLUAWm/giphy.gif" 
+            alt="Racoon" 
+                />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Racoon">
+            <img class="front-face" src="https://media.giphy.com/media/3WvdC5etwu52rLUAWm/giphy.gif" 
+            alt="Racoon" 
+                />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>  
+        <div class="memory-card" data-gif="Sunset">
+            <img class="front-face" src="https://media.giphy.com/media/ygziL3Vvu80v2ypxOU/giphy.gif" 
+            alt="Sunset" 
+                />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Sunset">
+            <img class="front-face" src="https://media.giphy.com/media/ygziL3Vvu80v2ypxOU/giphy.gif" 
+            alt="Sunset" 
+                />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Zootopiasmile">
+            <img class="front-face" src="https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif" 
+            alt="Zootopiasmile" 
+            />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+        <div class="memory-card" data-gif="Zootopiasmile">
+            <img class="front-face" src="https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif" 
+            alt="Zootopiasmile" 
+                />
+            <img class="back-face" src="star.png" 
+            alt="Star">
+        </div>
+    </section>
+    <div>
+        <!-- <p class="flipCounter">Card Flip Counter</p> -->
+        <p id="counter" class="flipCounter">0</p>
+    </div>
+    <div class="divNewGameButton">
+        <button id="newGame" onClick="window.location.reload();">NEW GAME</button>
+    </div>
+</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
